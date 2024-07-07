@@ -44,14 +44,23 @@ h6 {
   font-weight: 400;
 }
 
+.w-380 {
+  width: 380px;
+}
 .w-600 {
   width: 600px;
+}
+.w-784 {
+  width: 784px;
 }
 
 /* ---
   margin, padding, line height
   --- */
-
+.mx-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 .mt-28 {
   margin-top: 28px;
 }
@@ -64,8 +73,14 @@ h6 {
 .mt-104 {
   margin-top: 104px;
 }
+.mt-173 {
+  margin-top: 173px;
+}
 .mt-230 {
   margin-top: 230px;
+}
+.mb-148 {
+  margin-bottom: 148px;
 }
 .-mb-6 {
   margin-bottom: -6px;
@@ -75,6 +90,9 @@ h6 {
 }
 .ml-54 {
   margin-left: 54px;
+}
+.ml-125 {
+  margin-left: 125px;
 }
 .mr-4 {
   margin-right: 4px;
@@ -116,11 +134,20 @@ h6 {
 .text-secondary {
   color: #75ff69;
 }
+.font-size-18 {
+  font-size: 18px;
+}
 .font-size-24 {
   font-size: 24px;
 }
+.font-size-32 {
+  font-size: 32px;
+}
 .font-size-64 {
   font-size: 64px;
+}
+.font-size-68 {
+  font-size: 68px;
 }
 .font-size-100 {
   font-size: 100px;
@@ -161,6 +188,9 @@ h6 {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 .align-items-center {
   align-items: center;

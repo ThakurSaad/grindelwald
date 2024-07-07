@@ -1,0 +1,17 @@
+.main-card-text {
+  width: -webkit-fill-available;
+  left: 50px;
+  bottom: 60px;
+}
+.main-card-heading {
+  font-family: "Boska", serif;
+  font-weight: 500;
+}
+.main-card-icon {
+  width: 50px;
+  height: 48px;
+}
+.secondary-card-text {
+  left: 40px;
+  bottom: 55px;
+}
