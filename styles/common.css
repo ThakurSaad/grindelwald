@@ -17,6 +17,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "switzer-semibold";
+  src: url("../fonts/Switzer-Semibold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
   font-family: "Oranienbaum-regular";
   src: url("../fonts/Oranienbaum-Regular.ttf") format("truetype");
   font-weight: 400;
@@ -57,6 +63,9 @@ h6 {
 /* ---
   margin, padding, line height
   --- */
+.mx-auto {
+  margin: 0 auto;
+}
 .mx-30 {
   margin-left: 30px;
   margin-right: 30px;
@@ -78,6 +87,9 @@ h6 {
 }
 .mt-230 {
   margin-top: 230px;
+}
+.mb-60 {
+  margin-bottom: 60px;
 }
 .mb-148 {
   margin-bottom: 148px;
@@ -183,8 +195,14 @@ h6 {
 .bg-color-main {
   background: #1b3936;
 }
+.bg-color-secondary {
+  background: #75ff69;
+}
 .flex {
   display: flex;
+}
+.flex-col {
+  flex-direction: column;
 }
 .justify-between {
   justify-content: space-between;

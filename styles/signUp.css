@@ -1,0 +1,36 @@
+.sign-up {
+  height: 900px;
+}
+.sign-up-bg-image {
+  background-image: url("../assets/signUpBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1190px 700px;
+}
+.sign-up p {
+  letter-spacing: 1px;
+}
+.input {
+  padding-left: 20px;
+  width: 395px;
+  height: 60px;
+  border: none;
+  font-family: "switzer-regular";
+  font-size: 18px;
+}
+.input:focus {
+  border: none;
+  outline: none;
+}
+.input::placeholder {
+  font-family: "switzer-regular";
+  font-size: 18px;
+  opacity: 0.5;
+}
+.input-btn {
+  font-family: "switzer-semibold";
+  width: 175px;
+  height: 60px;
+  border: none;
+  margin-left: -6px;
+}
