@@ -1,0 +1,34 @@
+.let-us-talk {
+  width: 1065px;
+}
+.let-us-talk-btn {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 100%;
+}
+.let-us-talk-btn-img {
+  border-radius: 100%;
+  transition: 0.1s;
+}
+
+.let-us-talk-btn-img:hover {
+  background: #75ff69;
+  transform: scale(1.05);
+}
+.let-us-talk span {
+  top: 17px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+.footer-link {
+  width: 480px;
+  height: 320px;
+}
+.footer-arrow {
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+  margin-left: 20px;
+}

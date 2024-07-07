@@ -17,6 +17,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "switzer-medium";
+  src: url("../fonts/Switzer-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
   font-family: "switzer-semibold";
   src: url("../fonts/Switzer-Semibold.otf") format("truetype");
   font-weight: 600;
@@ -41,6 +47,14 @@ body {
   background-color: #f9f9f9;
 }
 
+a {
+  text-decoration: none;
+  border: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -50,7 +64,9 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
 }
-
+.h-532 {
+  height: 532px;
+}
 .w-380 {
   width: 380px;
 }
@@ -134,17 +150,44 @@ h6 {
 .pt-28 {
   padding-top: 28px;
 }
+.pt-78 {
+  padding-top: 78px;
+}
+.pt-104 {
+  padding-top: 104px;
+}
+.pt-125 {
+  padding-top: 125px;
+}
 .pb-120 {
   padding-bottom: 120px;
 }
 .pb-172 {
   margin-bottom: 172px;
 }
+.pr-30 {
+  padding-right: 30px;
+}
 .pr-96 {
   padding-right: 96px;
 }
+.pr-110 {
+  padding-right: 110px;
+}
+.pl-75 {
+  padding-left: 75px;
+}
+.pl-125 {
+  padding-left: 125px;
+}
 .pl-328 {
   padding-left: 328px;
+}
+.line-height-0 {
+  line-height: 0;
+}
+.line-height-22 {
+  line-height: 42px;
 }
 .line-height-65 {
   line-height: 65px;
@@ -155,6 +198,9 @@ h6 {
 
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-white {
   color: white;
@@ -183,13 +229,17 @@ h6 {
 .font-size-100 {
   font-size: 100px;
 }
+.font-switzer-extralight {
+  font-family: "switzer-extralight";
+  font-weight: 200;
+}
 .font-switzer-regular {
   font-family: "switzer-regular";
   font-weight: 400;
 }
-.font-switzer-extralight {
-  font-family: "switzer-extralight";
-  font-weight: 200;
+.font-switzer-medium {
+  font-family: "switzer-medium";
+  font-weight: 500;
 }
 .font-boska-regular {
   font-family: "Boska", serif;
@@ -211,6 +261,9 @@ h6 {
 /* ---
   more 
   --- */
+.bg-white {
+  background: white;
+}
 .bg-color-main {
   background: #1b3936;
 }
@@ -229,14 +282,17 @@ h6 {
 .justify-center {
   justify-content: center;
 }
+.justify-around {
+  justify-content: space-around;
+}
+.justify-end {
+  justify-content: end;
+}
 .align-items-center {
   align-items: center;
 }
 .align-items-end {
   align-items: end;
-}
-.justify-around {
-  justify-content: space-around;
 }
 .absolute {
   position: absolute;
