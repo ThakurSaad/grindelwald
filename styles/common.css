@@ -38,6 +38,7 @@
 body {
   max-width: 1420px;
   margin: 0 auto;
+  background-color: #f9f9f9;
 }
 
 h1,
@@ -79,8 +80,14 @@ h6 {
 .mt-52 {
   margin-top: 52px;
 }
+.mt-70 {
+  margin-top: 70px;
+}
 .mt-104 {
   margin-top: 104px;
+}
+.mt-122 {
+  margin-top: 122px;
 }
 .mt-173 {
   margin-top: 173px;
@@ -88,17 +95,29 @@ h6 {
 .mt-230 {
   margin-top: 230px;
 }
+.mb-12 {
+  margin-bottom: 12px;
+}
 .mb-60 {
   margin-bottom: 60px;
 }
+.mb-78 {
+  margin-bottom: 78px;
+}
 .mb-148 {
   margin-bottom: 148px;
+}
+.mb-172 {
+  margin-bottom: 172px;
 }
 .-mb-6 {
   margin-bottom: -6px;
 }
 .-mb-28 {
   margin-bottom: -28px;
+}
+.ml-18 {
+  margin-left: 18px;
 }
 .ml-54 {
   margin-left: 54px;
@@ -111,9 +130,6 @@ h6 {
 }
 .mr-54 {
   margin-right: 54px;
-}
-.ml-18 {
-  margin-left: 18px;
 }
 .pt-28 {
   padding-top: 28px;
@@ -145,6 +161,9 @@ h6 {
 }
 .text-secondary {
   color: #75ff69;
+}
+.text-tertiary {
+  color: #1b3936;
 }
 .font-size-18 {
   font-size: 18px;
@@ -212,6 +231,9 @@ h6 {
 }
 .align-items-center {
   align-items: center;
+}
+.align-items-end {
+  align-items: end;
 }
 .justify-around {
   justify-content: space-around;
