@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "switzer-extraLight";
+  src: url("../fonts/Switzer-Extralight.otf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "switzer-light";
+  src: url("../fonts/Switzer-Light.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "switzer-regular";
+  src: url("../fonts/Switzer-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oranienbaum-regular";
+  src: url("../fonts/Oranienbaum-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---
+  margin padding
+  --- */
+
+.mt-28 {
+  margin-top: 28px;
+}
+.mt-52 {
+  margin-top: 52px;
+}
+.-mb-28 {
+  margin-bottom: -28px;
+}
+.ml-54 {
+  margin-left: 54px;
+}
+.mr-4 {
+  margin-right: 4px;
+}
+.mr-54 {
+  margin-right: 54px;
+}
+.pt-28 {
+  padding-top: 28px;
+}
+.pb-120 {
+  padding-bottom: 120px;
+}
+.pb-172 {
+  margin-bottom: 172px;
+}
+.pr-96 {
+  padding-right: 96px;
+}
+.pl-328 {
+  padding-left: 328px;
+}
+
+/* ---
+  text
+  --- */
+
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: white;
+}
+.text-secondary {
+  color: #75ff69;
+}
+.font-switzer-extralight {
+  font-family: "switzer-extralight";
+  font-weight: 300;
+}
+.font-oranienbaum-regular {
+  font-family: "oranienbaum-regular";
+  font-weight: 400;
+}
+
+/* ---
+  more 
+  --- */
+
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.absolute {
+  position: absolute;
+}
