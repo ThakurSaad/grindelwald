@@ -1,0 +1,40 @@
+.about-us {
+  height: 1730px;
+}
+.about-us-image {
+  max-width: 100%;
+  width: 100%;
+  max-width: 1420px;
+}
+.about-us-image-1 {
+  position: absolute;
+  top: 321px;
+  left: 38px;
+}
+.about-us-image-2 {
+  position: absolute;
+  top: 76px;
+  left: 978px;
+}
+.about-us-image-3 {
+  position: absolute;
+  top: 948px;
+  left: 149px;
+}
+.about-us-image-4 {
+  position: absolute;
+  top: 980px;
+  left: 882px;
+}
+.about-us-info {
+  position: relative;
+  z-index: 10;
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 240px;
+  letter-spacing: 1px;
+}
+
+.about-us-info p span {
+  opacity: 0.3;
+}
