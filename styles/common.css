@@ -29,15 +29,40 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.w-600 {
+  width: 600px;
+}
+
 /* ---
-  margin padding
+  margin, padding, line height
   --- */
 
 .mt-28 {
   margin-top: 28px;
 }
+.mt-41 {
+  margin-top: 41px;
+}
 .mt-52 {
   margin-top: 52px;
+}
+.mt-104 {
+  margin-top: 104px;
 }
 .-mb-28 {
   margin-bottom: -28px;
@@ -50,6 +75,9 @@
 }
 .mr-54 {
   margin-right: 54px;
+}
+.ml-18 {
+  margin-left: 18px;
 }
 .pt-28 {
   padding-top: 28px;
@@ -66,7 +94,9 @@
 .pl-328 {
   padding-left: 328px;
 }
-
+.line-height-65{
+  line-height: 65px;
+}
 /* ---
   text
   --- */
@@ -80,8 +110,26 @@
 .text-secondary {
   color: #75ff69;
 }
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-100 {
+  font-size: 100px;
+}
+.font-switzer-regular {
+  font-family: "switzer-regular";
+  font-weight: 400;
+}
 .font-switzer-extralight {
   font-family: "switzer-extralight";
+  font-weight: 200;
+}
+.font-boska-bold {
+  font-family: "Boska", serif;
+  font-weight: 700;
+}
+.font-switzer-light {
+  font-family: "switzer-light";
   font-weight: 300;
 }
 .font-oranienbaum-regular {
@@ -98,6 +146,9 @@
 }
 .justify-between {
   justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
 }
 .justify-around {
   justify-content: space-around;
