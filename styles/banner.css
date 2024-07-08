@@ -12,6 +12,10 @@ header {
   text-align: center;
 }
 
+.sub-heading h4{
+  letter-spacing: 1px;
+}
+
 .heading {
   font-family: "Boska", serif;
 }

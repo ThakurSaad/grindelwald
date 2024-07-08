@@ -13,6 +13,7 @@
 }
 
 .let-us-talk-btn-img:hover {
+  cursor: pointer;
   background: #75ff69;
   transform: scale(1.05);
 }
