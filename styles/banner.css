@@ -48,5 +48,6 @@ header {
   font-weight: 700;
 }
 .banner-play-icon{
+  position: absolute;
   right: 75px;
 }
