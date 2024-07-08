@@ -31,7 +31,7 @@
     </nav>
 
     <!-- banner -->
-    <header class="bg-color-main text-white banner-line-image">
+    <header class="bg-color-main text-white banner-line-image relative">
       <div class="banner banner-bg-image">
         <h1 class="heading text-center pt-28">
           <span class="heading-main pr-96">Cosy</span>
@@ -48,6 +48,9 @@
             of everyday life and reconnect with nature.
           </h4>
         </div>
+      </div>
+      <div class="banner-play-icon absolute">
+        <img src="./assets/bannerIcon.png" alt="icon" />
       </div>
     </header>
 
@@ -347,48 +350,67 @@
       </section>
 
       <!-- links -->
-      <section class="flex">
-        <!-- link -->
-        <div class="footer-link bg-color-secondary text-tertiary pt-104 pl-125">
-          <a class="text-tertiary" href="/">
-            <span class="font-boska-regular font-size-68">About</span>
-          </a>
-          <p class="font-switzer-regular line-height-0">Us in a true way</p>
-          <div class="text-right pr-30">
-            <img class="mt-28" src="./assets/footerArrow1.png" alt="arrow" />
+      <section>
+        <div class="flex">
+          <!-- link -->
+          <div
+            class="footer-link bg-color-secondary text-tertiary pt-104 pl-125"
+          >
+            <a class="text-tertiary" href="/">
+              <span class="font-boska-regular font-size-68">About</span>
+            </a>
+            <p class="font-switzer-regular line-height-0">Us in a true way</p>
+            <div class="text-right pr-30">
+              <img class="mt-28" src="./assets/footerArrow1.png" alt="arrow" />
+            </div>
+          </div>
+          <!-- link -->
+          <div class="footer-link bg-color-main pl-125 pt-125">
+            <p class="font-switzer-extralight text-white line-height-22">
+              See our
+            </p>
+            <div class="flex align-items-center">
+              <a href="/">
+                <span class="font-boska-regular text-white font-size-68"
+                  >Rooms</span
+                >
+              </a>
+              <img
+                class="footer-arrow"
+                src="./assets/footerArrow2.png"
+                alt="arrow"
+              />
+            </div>
+          </div>
+          <!-- link -->
+          <div class="footer-link bg-color-main pr-110 pt-125">
+            <p class="font-switzer-extralight text-white line-height-22 pl-75">
+              You can
+            </p>
+            <div class="flex justify-end align-items-center">
+              <a href="/">
+                <span class="font-boska-regular text-white font-size-68"
+                  >Contact</span
+                >
+              </a>
+              <img
+                class="footer-arrow"
+                src="./assets/footerArrow2.png"
+                alt="arrow"
+              />
+            </div>
           </div>
         </div>
-        <!-- link -->
-        <div class="footer-link bg-color-main pl-125 pt-125">
-          <p class="font-switzer-extralight text-white line-height-22">See our</p>
-          <div class="flex align-items-center">
-            <a href="/">
-              <span class="font-boska-regular text-white font-size-68"
-                >Rooms</span
-              >
-            </a>
-            <img
-              class="footer-arrow"
-              src="./assets/footerArrow2.png"
-              alt="arrow"
-            />
-          </div>
-        </div>
-        <!-- link -->
-        <div class="footer-link bg-color-main pr-110 pt-125">
-          <p class="font-switzer-extralight text-white line-height-22 pl-75">You can</p>
-          <div class="flex justify-end align-items-center">
-            <a href="/">
-              <span class="font-boska-regular text-white font-size-68"
-                >Contact</span
-              >
-            </a>
-            <img
-              class="footer-arrow"
-              src="./assets/footerArrow2.png"
-              alt="arrow"
-            />
-          </div>
+        <!-- other links -->
+        <div>
+          <ul
+            class="other-links flex justify-center font-switzer-regular font-size-18 my-20"
+          >
+            <li>Change Log</li>
+            <li class="ml-54">Style Guide</li>
+            <li class="ml-54">Licensing</li>
+            <li class="ml-54">Instructions</li>
+          </ul>
         </div>
       </section>
     </footer>
